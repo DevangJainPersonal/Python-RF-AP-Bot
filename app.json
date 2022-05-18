@@ -1,35 +1,27 @@
 {
-    "name": "Python Auto Pay R&F Bot",
-    "description": "A Telegram Refer and eran Bot with Auto Payments By @Trusted_xD",
-    "keywords": [
-        "telegram",
-        "Refer",
-        "Earn",
-        "bot"
-    ],
-    "repository": "https://github.com/DevangJainPersonal/Python-RF-AP-Bot",
-    "website": "https://t.me/Trusted_xD",
-    "success_url": "https://t.me/Trusted_xD",
-    "env": {
-        "BOT_TOKEN": {
-            "description": "From @BotFather"
-        },
-        "ADMIN_IDs": {
-            "description": "Admin ID in the Format : [123456789,1011121314]"
-        },
-        "MONGO_DB_URL": {
-            "description": "MongoDB Database URL"
-        }
+  "name": "Python Auto Pay R&F Bot",
+  "description": "A Telegram Refer and eran Bot with Auto Payments By @Trusted_xD",
+  "repository": "https://github.com/DevangJainPersonal/Python-RF-AP-Bot",
+  "logo": "https://github.com/odysseusmax/utube/blob/master/ss/logo.jpeg",
+  "keywords": ["telegram", "youtube", "uploader"],
+  "env": {
+      "BOT_TOKEN": {
+      "description": "Your Bot token. Get from https://t.me/botfather",
+      "value": ""
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    "MONGO_DB_URL": {
+      "description": "MongoDB Database URL",
+      "value": "Mut",
+      "required":true
+    },
+    "ADMIN_IDs": {
+      "description": "Admin ID in the Format : [123456789,1011121314]",
+      "value": ""
     }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
