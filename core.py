@@ -1,8 +1,5 @@
-#Bot Token From @BotFather
-bot_token = "Bot Token Here"
 
-#Admins Telegram ID
-admins = [1468386562,1914289455]
-
-#MongoDb Url For Databse
-mongo_url = "Mongo Url"
+import os
+bot_token = os.environ.get("BOT_TOKEN")
+admins = os.environ.get("ADMIN_IDs")
+mongo_url = os.environ.get("MONGO_DB_URL")
