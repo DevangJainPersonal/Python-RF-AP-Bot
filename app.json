@@ -23,5 +23,11 @@
       "description": "Admin ID in the Format : [123456789,1011121314]",
       "value": ""
   }
+ },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
  }
 }
