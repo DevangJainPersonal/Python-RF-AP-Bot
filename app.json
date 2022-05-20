@@ -10,7 +10,12 @@
    "FiletoLinkBot"
   ],
  "repository": "https://github.com/DevangJainPersonal/Python-RF-AP-Bot",
-    "formation": {
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+ "formation": {
       "worker": {
         "quantity": 1,
         "size": "free"
