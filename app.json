@@ -10,20 +10,6 @@
    "FiletoLinkBot"
   ],
  "repository": "https://github.com/DevangJainPersonal/Python-RF-AP-Bot",
- "env": {
-   "BOT_TOKEN": {
-      "description": "Your Bot token. Get from https://t.me/botfather",
-      "value": ""
-  },
-   "MONGO_DB_URL": {
-      "description": " MongoDB Database URL",
-      "value": ""
-  },
-   "ADMIN_IDs": {
-      "description": "Admin ID in the Format : [123456789,1011121314]",
-      "value": ""
-  }
- },
     "buildpacks": [
         {
             "url": "heroku/python"
