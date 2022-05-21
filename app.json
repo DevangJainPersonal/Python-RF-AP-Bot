@@ -1,24 +1,21 @@
 
 
-
 {
- "name": "Python Auto Pay R&F Bot",
- "description": "A Telegram Refer and eran Bot with Auto Payments By @Trusted_xD",
- "logo": "https://telegra.ph/file/c3d25aa057a3aa2282d50.png",
- "keywords": [
-   "telegram",
-   "FiletoLinkBot"
-  ],
- "repository": "https://github.com/DevangJainPersonal/Python-RF-AP-Bot",
+    "name": "Refer and Earn Python Telegram BoT",
+    "description": "A Refer and Earn telegram bot.",
+    "repository": "https://github.com/fadilniju",
+    "keywords": [
+       
+        "telegram bot",
+        "pyrogram"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
     "buildpacks": [
         {
             "url": "heroku/python"
         }
-    ],
- "formation": {
-      "worker": {
-        "quantity": 1,
-        "size": "free"
-      }
-    }
- }
+    ]
+
